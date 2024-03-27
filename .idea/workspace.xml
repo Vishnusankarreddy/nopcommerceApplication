@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/Loginpage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM_headers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM_loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/test_Login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orange2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orange2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +41,61 @@
     "Python tests.Python tests for test_Login.Test_001_Login.test_login.executor": "Run",
     "Python tests.Python tests in OrangeHRM_loginpage.py.executor": "Run",
     "Python.Loginpage.executor": "Run",
+    "Python.Orange1.executor": "Run",
+    "Python.Orange2.executor": "Run",
     "Python.OrangeHRM_headers.executor": "Run",
+    "Python.OrangeHRm_email.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.OrangeHRM_headers">
+  <component name="RunManager" selected="Python.Orange2">
+    <configuration name="Orange1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nopcommarceApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Orange1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Orange2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nopcommarceApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Orange2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="OrangeHRM_headers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
@@ -75,49 +118,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for OrangeHRM_loginpage.TestOrangeHRM_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="OrangeHRm_email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;OrangeHRM_loginpage.TestOrangeHRM_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for OrangeHRM_loginpage.TestOrangeHRM_login.test_valid_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="nopcommarceApp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;OrangeHRM_loginpage.TestOrangeHRM_login.test_valid_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_Login.Test_001_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="nopcommarceApp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_Login.Test_001_Login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OrangeHRm_email.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in OrangeHRM_loginpage.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -137,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Orange2" />
+        <item itemvalue="Python.Orange1" />
+        <item itemvalue="Python.OrangeHRm_email" />
         <item itemvalue="Python.OrangeHRM_headers" />
         <item itemvalue="Python tests.Python tests in OrangeHRM_loginpage.py" />
-        <item itemvalue="Python tests.Python tests for OrangeHRM_loginpage.TestOrangeHRM_login.test_valid_login" />
-        <item itemvalue="Python tests.Python tests for OrangeHRM_loginpage.TestOrangeHRM_login" />
-        <item itemvalue="Python tests.Python tests for test_Login.Test_001_Login" />
       </list>
     </recent_temporary>
   </component>
