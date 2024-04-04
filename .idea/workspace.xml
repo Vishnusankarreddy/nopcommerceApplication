@@ -5,10 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/POMDemo/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/login_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POMDemo/main_script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POMDemo/orange2222.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POMDemo/orangehrm1111.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POMDemo/orangehrm_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basePackage/BasePo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basePackage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enums/Enum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enums/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/Action.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/Assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/DataProviders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/ElementUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/StepUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/StringUtils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/Waiters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orangeHRMLoginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/HomePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/steps/HomeSteps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/steps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testData/url.json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFiles/Test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testFiles/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yellow1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,46 +56,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for OrangeHRM_loginpage.TestOrangeHRM_login.executor": "Run",
-    "Python tests.Python tests for OrangeHRM_loginpage.TestOrangeHRM_login.test_valid_login.executor": "Run",
-    "Python tests.Python tests for login_page.test_login.executor": "Run",
-    "Python tests.Python tests for test_Login.Test_001_Login.executor": "Run",
-    "Python tests.Python tests for test_Login.Test_001_Login.test_homePageTitle.executor": "Run",
-    "Python tests.Python tests for test_Login.Test_001_Login.test_login.executor": "Run",
-    "Python tests.Python tests for test_contact_sales.test_contact_sales_form.executor": "Run",
-    "Python tests.Python tests for test_demo_form.TestDemoForm (1).executor": "Run",
-    "Python tests.Python tests for test_facebook_login.TestFacebookLogin.executor": "Run",
-    "Python tests.Python tests for test_facebook_login.TestFacebookLogin.test_successful_login.executor": "Run",
-    "Python tests.Python tests for test_script.TestHeaders.executor": "Run",
-    "Python tests.Python tests in OrangeHRM_loginpage.py.executor": "Run",
-    "Python tests.Python tests in login_page.py.executor": "Run",
-    "Python tests.Python tests in test_demo_form.py.executor": "Run",
-    "Python tests.Python tests in test_facebook_login.py.executor": "Run",
-    "Python tests.Python tests in test_script.py.executor": "Run",
-    "Python.Loginpage.executor": "Run",
-    "Python.Orange1.executor": "Run",
-    "Python.Orange2.executor": "Run",
-    "Python.OrangeHRM_header_framework.executor": "Run",
-    "Python.OrangeHRM_headers.executor": "Run",
-    "Python.OrangeHRm_email.executor": "Run",
-    "Python.Yellow1.executor": "Run",
-    "Python.base_page.executor": "Run",
-    "Python.contact_sales_page.executor": "Run",
-    "Python.facebook_home_page.executor": "Run",
-    "Python.facebook_login_page.executor": "Run",
-    "Python.green.executor": "Run",
-    "Python.home_page.executor": "Run",
-    "Python.login_test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for OrangeHRM_loginpage.TestOrangeHRM_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for OrangeHRM_loginpage.TestOrangeHRM_login.test_valid_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Test1.Test1.test_contact_us_form_submission.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Test1.Test1.test_request_a_demo_button_presence_and_is_active.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for Test1.Test1.test_top_level_menu_accessibility.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for login_page.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Login.Test_001_Login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Login.Test_001_Login.test_homePageTitle.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_Login.Test_001_Login.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_contact_sales.test_contact_sales_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_demo_form.TestDemoForm (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_facebook_login.TestFacebookLogin.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_facebook_login.TestFacebookLogin.test_successful_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_script.TestHeaders.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in OrangeHRM_loginpage.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in Test1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in login_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_demo_form.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_facebook_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_script.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BasePo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Enum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HomeSteps.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Loginpage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Orange1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Orange2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OrangeHRM_header_framework.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OrangeHRM_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OrangeHRm_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Yellow1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.base_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contact_sales_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.facebook_home_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.facebook_login_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.green.executor&quot;: &quot;Run&quot;,
+    &quot;Python.home_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.login_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orange2222.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orangeHRMLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orangehrm1111.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orangehrm_page.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for login_page.test_login">
-    <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Python.orange2222">
+    <configuration name="main_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +120,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/login_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/main_script.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,34 +129,70 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_page.test_login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="orange2222" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_page.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/orange2222.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_script.TestHeaders" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="orangehrm1111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_script.TestHeaders&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/orangehrm1111.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="orangehrm_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nopcommarceApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/orangehrm_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in login_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -140,28 +210,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_script.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="nopcommarceApp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_script.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for login_page.test_login" />
+        <item itemvalue="Python.orange2222" />
+        <item itemvalue="Python.orangehrm1111" />
         <item itemvalue="Python tests.Python tests in login_page.py" />
-        <item itemvalue="Python.login_test" />
-        <item itemvalue="Python tests.Python tests for test_script.TestHeaders" />
-        <item itemvalue="Python tests.Python tests in test_script.py" />
+        <item itemvalue="Python.main_script" />
+        <item itemvalue="Python.orangehrm_page" />
       </list>
     </recent_temporary>
   </component>
@@ -182,5 +237,16 @@
       <updated>1711023654585</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/POMDemo/orangehrm1111.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
