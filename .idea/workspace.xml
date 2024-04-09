@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TestFiles/test_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enums/HeaderMenuItemsEnum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basePackage/BasePo.py" beforeDir="false" afterPath="$PROJECT_DIR$/basePackage/BasePo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enums/Enum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/Action.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/Assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Assertions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/DataProviders.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/DataProviders.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/ElementUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/ElementUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/StepUtils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/StringUtils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/Waiters.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Waiters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/HomeSteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/HomeSteps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testData/url.json.py" beforeDir="false" afterPath="$PROJECT_DIR$/testData/url.json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFiles/Test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFiles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestFiles/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
