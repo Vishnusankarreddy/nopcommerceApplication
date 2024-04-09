@@ -1,27 +1,16 @@
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from basePackage.BasePo import driver
+from telnetlib import EC
+from time import sleep
+from selenium.webdriver.support.wait import WebDriverWait
+from basePackage.BasePo import BasePo
 
-class Waiters:
-    timeoutInSeconds = 10
-    wait = WebDriverWait(driver, timeoutInSeconds)
 
-    @staticmethod
-    def waitWithSleepTimeout():
-        import time
-        time.sleep(3)
+class Waiters(BasePo):
+    timeout_in_seconds = 10
 
     @staticmethod
-    def waitForElementToBeDisplayed(locator):
-        Waiters.wait.until(EC.visibility_of_element_located(locator))
+    def wait_with_sleep_timeout():
+        sleep(5)  # Sleep for 5 seconds
 
     @staticmethod
-    def waitForElementToBeVisible(locator):
-        Waiters.wait.until(EC.visibility_of_element_located(locator))
-
-    @staticmethod
-    def waitForElementToBeClickable(locator):
-        Waiters.wait.until(EC.element_to_be_clickable(locator))
-
-
-
+    def wait_for_element_to_be_displayed(locator):
+        WebDriverWait(Waiters.driver, Waiters.timeout_in_seconds).until(EC.visibility_of_element_located(locator))

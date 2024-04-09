@@ -1,4 +1,5 @@
 import json
 
 class DataProviders:
-    URL = "https://www.orangehrm.com"
+    orangeHRmURl = "https://www.orangehrm.com"
+

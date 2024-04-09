@@ -1,1 +1,1 @@
-base_url = "https://www.orangehrm.com"
+orangeHRmURl : "https:www.orangehrm.com"

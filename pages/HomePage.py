@@ -1,28 +1,23 @@
-from argparse import Action
-
 from selenium.webdriver.common.by import By
-
-from helpers.DataRroviders import DataProviders
+from basePackage.BasePo import BasePo
+from helpers.DataProviders import DataProviders
 from helpers.Waiters import Waiters
 
-
-class HomePage:
+class HomePage(BasePo):
     def __init__(self, driver):
         self.driver = driver
 
-    def headerItem(self, itemName):
-        return By.text(itemName)
+    def header_item(self, item_name):
+        return By.LINK_TEXT, item_name
 
-    def contactForm(self, formname):
-        return By.name(formname)
-
-    def openLandingPage(self):
-        self.driver.get(DataProviders.getUrlTestData("https://www.orangehrm.com"))
-
-    def getCurrentUrl(self):
+    def open_landing_page(self):
+        url = DataProviders.orangeHRmURl
+        self.driver.get(url)
+    def get_current_url(self):
         return self.driver.current_url
 
-    def clickOnHeaderMenuButton(self, itemName):
-        locator = By.link_text(itemName)
-        Waiters.waitForElementToBeDisplayed(locator)
-        Action.clickByLocator(locator, 0)
+    def click_on_header_menu_button(self, item_name):
+        locator = self.header_item(item_name)
+        Waiters.wait_for_element_to_be_displayed(locator)
+        element = self.driver.find_element(*locator)
+        element.click()

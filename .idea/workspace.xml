@@ -5,32 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/POMDemo/main_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/orange2222.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/orangehrm1111.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POMDemo/orangehrm_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basePackage/BasePo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basePackage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enums/Enum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enums/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/Action.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/Assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/DataProviders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/ElementUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/StepUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/StringUtils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/Waiters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orangeHRMLoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/HomePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steps/HomeSteps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/steps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testData/url.json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testFiles/Test1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testFiles/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestFiles/test_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enums/HeaderMenuItemsEnum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basePackage/BasePo.py" beforeDir="false" afterPath="$PROJECT_DIR$/basePackage/BasePo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enums/Enum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/Action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/Assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Assertions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/DataProviders.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/DataProviders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/ElementUtils.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/ElementUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/StepUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/StringUtils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/Waiters.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/Waiters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/HomePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/HomeSteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/HomeSteps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/steps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testData/url.json.py" beforeDir="false" afterPath="$PROJECT_DIR$/testData/url.json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFiles/Test1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFiles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestFiles/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for Assertions.Assertions.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for OrangeHRM_loginpage.TestOrangeHRM_login.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for OrangeHRM_loginpage.TestOrangeHRM_login.test_valid_login.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for Test1.Test1.test_contact_us_form_submission.executor&quot;: &quot;Run&quot;,
@@ -71,15 +65,22 @@
     &quot;Python tests.Python tests for test_demo_form.TestDemoForm (1).executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_facebook_login.TestFacebookLogin.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_facebook_login.TestFacebookLogin.test_successful_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_file.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_file.Test1.test_top_level_menu_accessibility.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_script.TestHeaders.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in OrangeHRM_loginpage.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in Test1.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in login_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_demo_form.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_facebook_login.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_file.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_script.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Actions.executor&quot;: &quot;Run&quot;,
     &quot;Python.BasePo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DataProviders.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ElementUtils.executor&quot;: &quot;Run&quot;,
     &quot;Python.Enum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HomePage.executor&quot;: &quot;Run&quot;,
     &quot;Python.HomeSteps.executor&quot;: &quot;Run&quot;,
     &quot;Python.Loginpage.executor&quot;: &quot;Run&quot;,
     &quot;Python.Orange1.executor&quot;: &quot;Run&quot;,
@@ -87,6 +88,7 @@
     &quot;Python.OrangeHRM_header_framework.executor&quot;: &quot;Run&quot;,
     &quot;Python.OrangeHRM_headers.executor&quot;: &quot;Run&quot;,
     &quot;Python.OrangeHRm_email.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Waiters.executor&quot;: &quot;Run&quot;,
     &quot;Python.Yellow1.executor&quot;: &quot;Run&quot;,
     &quot;Python.base_page.executor&quot;: &quot;Run&quot;,
     &quot;Python.contact_sales_page.executor&quot;: &quot;Run&quot;,
@@ -106,8 +108,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.orange2222">
-    <configuration name="main_script" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_file.Test1.test_top_level_menu_accessibility">
+    <configuration name="ElementUtils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,11 +118,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/main_script.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/ElementUtils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="orange2222" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Waiters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helpers" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/orange2222.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helpers/Waiters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,72 +153,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="orangehrm1111" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nopcommarceApp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/orangehrm1111.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="orangehrm_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nopcommarceApp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/POMDemo/orangehrm_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in login_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_file.Test1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/POMDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestFiles" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/POMDemo/login_page.py&quot;" />
+      <option name="_new_target" value="&quot;test_file.Test1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_file.Test1.test_top_level_menu_accessibility" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="nopcommarceApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestFiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_file.Test1.test_top_level_menu_accessibility&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_file.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="nopcommarceApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestFiles" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestFiles/test_file.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.orange2222" />
-        <item itemvalue="Python.orangehrm1111" />
-        <item itemvalue="Python tests.Python tests in login_page.py" />
-        <item itemvalue="Python.main_script" />
-        <item itemvalue="Python.orangehrm_page" />
+        <item itemvalue="Python tests.Python tests for test_file.Test1.test_top_level_menu_accessibility" />
+        <item itemvalue="Python.Waiters" />
+        <item itemvalue="Python tests.Python tests in test_file.py" />
+        <item itemvalue="Python tests.Python tests for test_file.Test1" />
+        <item itemvalue="Python.ElementUtils" />
       </list>
     </recent_temporary>
   </component>

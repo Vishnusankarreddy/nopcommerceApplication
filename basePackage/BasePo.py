@@ -1,4 +1,6 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 
 class BasePo:
     driver = None
@@ -13,7 +15,4 @@ class BasePo:
     def close_browser(cls):
         if cls.driver:
             cls.driver.quit()
-
-
-def driver():
-    return None
+            cls.driver = None

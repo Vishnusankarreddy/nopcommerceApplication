@@ -1,15 +1,15 @@
-from basePackage.BasePo import driver
-from helpers.StepUtiles import StepUtils
-from pages.HomePages import HomePage
+from basePackage.BasePo import BasePo
+from pages.HomePage import HomePage
 
 
-class HomeSteps:
-    def __init__(self):
+class HomeSteps(BasePo):
+    def __init__(self, driver):
+        self.driver = driver
         self.homepage = HomePage(driver)
 
-    def userLandsOnHomePage(self):
-        self.homepage.openLandingPage()
+    def displayed_on_the_item(self, item_name, xpath):
+        element = self.driver.find_element_by_xpath(xpath)
+        return element.is_displayed()
 
-    def clickOnMenuItem(self, item):
-        self.homepage.clickOnHeaderMenuButton(item.value)
-        StepUtils.addLog("The User clicks on the " + item.name + " button")
+    def user_lands_on_home_page(self):
+        self.homepage.open_landing_page()
