@@ -1,2 +1,0 @@
-def homeSteps():
-    return None
