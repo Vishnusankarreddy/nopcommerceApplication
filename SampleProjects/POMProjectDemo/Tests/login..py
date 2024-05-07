@@ -1,9 +1,12 @@
 import unittest
-import time
-
 from selenium.webdriver.chrome import webdriver
-from selenium.webdriver.common.by import By
-class LoginTest(unittest.Testcase):
+
+
+class LoginPage:
+    pass
+
+
+class LoginTest(unittest.TestCase):
 
         @classmethod
         def setupclass(cls):
@@ -12,12 +15,15 @@ class LoginTest(unittest.Testcase):
             cls.driver.maximize_window()
 
         def test_login_valid(self):
-            self.driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-            self.driver.find_element(By.XPATH, "//input[@name='username']").send_keys("Admin")
-            self.driver.find_element(By.XPATH, "//input[@name='password']").send_keys("admin123")
-            self.driver.find_element(By.XPATH, "//button[text()=' Login ']").click()
-            self.driver.find_element(By.XPATH, "//span[@class='oxd-userdropdown-tab']").click()
-            self.driver.find_element(By.XPATH, "//a[text()='Logout']").click()
+            driver = self.driver
+
+            driver.get("https://www.facebook.com/")
+
+            login = LoginPage(driver)
+            login.enter_username("8106620472")
+            login.enter_password("nivya reddy")
+            login.click_login()
+
 
         @classmethod
         def tearDoenClass(cls):
