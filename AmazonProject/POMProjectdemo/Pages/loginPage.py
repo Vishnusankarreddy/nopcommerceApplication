@@ -20,8 +20,8 @@ class AmazonLoginPage:
     def click_sign_in_submit(self):
         self.driver.find_element(*self.sign_in_submit_button).click()
 
-
-
+    def open(self):
+        pass
 
 
 class AmazonProductPage:
