@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AmazonProjectAddmoreproducts/Test/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AmazonProjectAddmoreproducts/pages/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AmazonProjectAddmoreproducts/pages/homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InstgramProject/Pages/Homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InstgramProject/Pages/LoginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InstgramProject/Test/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vishnu/guru.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vishnu/pom1.py" beforeDir="false" afterPath="$PROJECT_DIR$/vishnu/guru.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +87,7 @@
     "Python.facebook_home_page.executor": "Run",
     "Python.facebook_login_page.executor": "Run",
     "Python.green.executor": "Run",
+    "Python.guru.executor": "Run",
     "Python.home_page.executor": "Run",
     "Python.homepage.executor": "Run",
     "Python.login (1).executor": "Run",
@@ -109,7 +110,29 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.login (2)">
+  <component name="RunManager" selected="Python.login">
+    <configuration name="guru" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nopcommarceApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vishnu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vishnu/guru.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="homepage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
@@ -185,33 +208,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonProject/POMProjectdemo/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InstgramProject/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonProject/POMProjectdemo/Test/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pom1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nopcommarceApp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vishnu" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vishnu/pom1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InstgramProject/Test/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.guru" />
         <item itemvalue="Python.login (2)" />
         <item itemvalue="Python.homepage" />
         <item itemvalue="Python.login (1)" />
-        <item itemvalue="Python.pom1" />
-        <item itemvalue="Python.login" />
       </list>
     </recent_temporary>
   </component>
