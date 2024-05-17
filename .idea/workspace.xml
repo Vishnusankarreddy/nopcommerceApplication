@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AmazonProjectQuantity/Test/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AmazonProjectQuantity/pages/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AmazonProjectQuantity/pages/homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmazonIteamfilter/Test/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmazonIteamfilter/pages/filterpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmazonIteamfilter/pages/searchpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AmazonIteamfilter/pages/signpage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vishnu/guru.py" beforeDir="false" afterPath="$PROJECT_DIR$/vishnu/guru.py" afterDir="false" />
     </list>
@@ -86,6 +87,7 @@
     "Python.contact_sales_page.executor": "Run",
     "Python.facebook_home_page.executor": "Run",
     "Python.facebook_login_page.executor": "Run",
+    "Python.filterpage.executor": "Run",
     "Python.green.executor": "Run",
     "Python.guru.executor": "Run",
     "Python.home_page.executor": "Run",
@@ -105,13 +107,37 @@
     "Python.orangehrm1111.executor": "Run",
     "Python.orangehrm_page.executor": "Run",
     "Python.pom1.executor": "Run",
+    "Python.searchpage.executor": "Run",
+    "Python.signpage.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "dev",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.login (3)">
+  <component name="RunManager" selected="Python.login (1)">
+    <configuration name="filterpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nopcommarceApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonIteamfilter/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonIteamfilter/pages/filterpage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="guru" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
@@ -134,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homepage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonProjectAddmoreproducts/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonIteamfilter/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonProjectAddmoreproducts/pages/homepage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonIteamfilter/Test/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +182,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="searchpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,11 +191,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonProjectAddmoreproducts/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonIteamfilter/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonProjectAddmoreproducts/Test/login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonIteamfilter/pages/searchpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,7 +204,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="signpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,33 +213,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonProjectQuantity/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonIteamfilter/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonProjectQuantity/Test/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="nopcommarceApp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InstgramProject/Test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InstgramProject/Test/login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonIteamfilter/pages/signpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.login (3)" />
+        <item itemvalue="Python.login (1)" />
+        <item itemvalue="Python.searchpage" />
+        <item itemvalue="Python.filterpage" />
+        <item itemvalue="Python.signpage" />
         <item itemvalue="Python.guru" />
-        <item itemvalue="Python.login" />
-        <item itemvalue="Python.login (2)" />
-        <item itemvalue="Python.homepage" />
       </list>
     </recent_temporary>
   </component>
