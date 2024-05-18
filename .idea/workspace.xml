@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vishnu/assertions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vishnu/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vishnu/elementUtils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vishnu/guru.py" beforeDir="false" afterPath="$PROJECT_DIR$/vishnu/guru.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vishnu/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +108,7 @@
     "Python.signpage.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "OrangeHRM",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
