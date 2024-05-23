@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/case_studies_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/guru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/home_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/test_orangehrm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/why_orangehrm_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vishnu/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrangeHRM/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +59,7 @@
     "Python tests.Python tests for test_facebook_login.TestFacebookLogin.test_successful_login.executor": "Run",
     "Python tests.Python tests for test_file.Test1.executor": "Run",
     "Python tests.Python tests for test_file.Test1.test_top_level_menu_accessibility.executor": "Run",
+    "Python tests.Python tests for test_orangehrm.test_case_studies.executor": "Run",
     "Python tests.Python tests for test_script.TestHeaders.executor": "Run",
     "Python tests.Python tests in OrangeHRM_loginpage.py.executor": "Run",
     "Python tests.Python tests in Test1.py.executor": "Run",
@@ -63,6 +70,7 @@
     "Python tests.Python tests in test_demo_form.py.executor": "Run",
     "Python tests.Python tests in test_facebook_login.py.executor": "Run",
     "Python tests.Python tests in test_file.py.executor": "Run",
+    "Python tests.Python tests in test_orangehrm.py.executor": "Run",
     "Python tests.Python tests in test_script.py.executor": "Run",
     "Python.Actions.executor": "Run",
     "Python.BasePo.executor": "Run",
@@ -71,12 +79,15 @@
     "Python.Enum.executor": "Run",
     "Python.HomePage.executor": "Run",
     "Python.HomeSteps.executor": "Run",
+    "Python.Home_page.executor": "Run",
+    "Python.Login.executor": "Run",
     "Python.Loginpage.executor": "Run",
     "Python.Orange1.executor": "Run",
     "Python.Orange2.executor": "Run",
     "Python.OrangeHRM_header_framework.executor": "Run",
     "Python.OrangeHRM_headers.executor": "Run",
     "Python.OrangeHRm_email.executor": "Run",
+    "Python.Test_script.executor": "Run",
     "Python.Waiters.executor": "Run",
     "Python.Yellow1.executor": "Run",
     "Python.base_page.executor": "Run",
@@ -86,6 +97,7 @@
     "Python.facebook_login_page.executor": "Run",
     "Python.filterpage.executor": "Run",
     "Python.green.executor": "Run",
+    "Python.guru (1).executor": "Run",
     "Python.guru.executor": "Run",
     "Python.home_page.executor": "Run",
     "Python.homepage.executor": "Run",
@@ -101,6 +113,7 @@
     "Python.main_script.executor": "Run",
     "Python.orange2222.executor": "Run",
     "Python.orangeHRMLoginPage.executor": "Run",
+    "Python.orangeHRM_Casestudies_headers.executor": "Run",
     "Python.orangehrm1111.executor": "Run",
     "Python.orangehrm_page.executor": "Run",
     "Python.pom1.executor": "Run",
@@ -112,8 +125,8 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.demo">
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_orangehrm.py">
+    <configuration name="guru (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,11 +135,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vishnu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vishnu/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OrangeHRM/guru.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="filterpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="home_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,11 +157,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonIteamfilter/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonIteamfilter/pages/filterpage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ADMIN\PycharmProjects\nopcommarceApp\OrangeHRM\home_page.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="guru" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_orangehrm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,11 +179,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/vishnu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vishnu/guru.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ADMIN\PycharmProjects\nopcommarceApp\OrangeHRM\test_orangehrm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,57 +192,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="login (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_orangehrm.test_case_studies" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonIteamfilter/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonIteamfilter/Test/login.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_orangehrm.test_case_studies&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="searchpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_orangehrm.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="nopcommarceApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AmazonIteamfilter/pages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OrangeHRM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AmazonIteamfilter/pages/searchpage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/OrangeHRM/test_orangehrm.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python.guru" />
-        <item itemvalue="Python.login (1)" />
-        <item itemvalue="Python.searchpage" />
-        <item itemvalue="Python.filterpage" />
+        <item itemvalue="Python tests.Python tests in test_orangehrm.py" />
+        <item itemvalue="Python tests.Python tests for test_orangehrm.test_case_studies" />
+        <item itemvalue="Python.test_orangehrm" />
+        <item itemvalue="Python.home_page" />
+        <item itemvalue="Python.guru (1)" />
       </list>
     </recent_temporary>
   </component>

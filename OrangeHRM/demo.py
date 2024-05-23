@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 driver = webdriver.Chrome()
-driver.maximize_window()
+driver.maximize_wintdow()
 driver.get("https://www.orangehrm.com/")
 
 
@@ -20,7 +20,8 @@ assert_element_displayed(By.XPATH, "//a[text()='Solutions']")
 assert_element_displayed(By.XPATH, "//a[text()='Why OrangeHRM']")
 assert_element_displayed(By.XPATH, "//a[text()='Resources']")
 assert_element_displayed(By.XPATH, "//a[text()='Company']")
-
+assert_element_displayed(By.xpath, "//a[text()='Why OrangeHRM']").click
+assert_element_displayed(By.XPATH, "")
 print("All assertions passed successfully.")
 
 driver.quit()
