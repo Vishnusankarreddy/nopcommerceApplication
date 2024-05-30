@@ -28,3 +28,20 @@ class BasePage:
             select.select_by_visible_text(text)
         except TimeoutException:
             print(f"TimeoutException: Could not find the element with locator {by_locator} to select by visible text")
+
+    def hover_over_element(self, by, value):
+        element = self.wait_for_element(by, value)
+        action = ActionChains(self.driver)
+        action.move_to_element(element).perform()
+
+    def click_hr_manager(self):
+        self.click(By.XPATH, "//a[text()='IT Manager'][1]")
+
+    def click_book_demo(self):
+        self.click(By.XPATH, "//a[contains(text(),'Book a Free Demo')][1]")
+
+    def hover_over_header(self):
+        self.hover_over_element(By.XPATH, "//a[text()='Why OrangeHRM']")
+
+    def hover_over_stakeholder(self):
+        self.hover_over_element(By.XPATH, "//li[contains(text(),' Stakeholder Solutions')]")

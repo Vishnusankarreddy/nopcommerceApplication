@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06923c3-7172-4cb9-8095-1cc5c7efd658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OrangeHRM/testpartnershipform.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrangeHRM/demo_page..py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrangeHRM/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/becomepartnerpage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/case_studies_page.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/OrangeHRM/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/partnerpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/OrangeHRM/partner_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/test_orangehrm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrangeHRM/why_orangehrm_page.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
