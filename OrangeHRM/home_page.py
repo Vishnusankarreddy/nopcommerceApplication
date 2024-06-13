@@ -1,32 +1,35 @@
 from selenium.webdriver.common.by import By
-from .base_page import BasePage
 
 class HomePage(BasePage):
-    WHY_ORANGEHRM_LINK = (By.XPATH, "//a[text()='Why OrangeHRM?']")
+    def hover_over_header(self):
+        self.hover_over_element(By.XPATH, "//a[text()='Why OrangeHRM']")
+
+    def hover_over_stakeholder(self):
+        self.hover_over_element(By.XPATH, "//li[contains(text(),' Stakeholder Solutions')]")
+
+    def click_hr_manager(self):
+        self.click(By.XPATH, "//a[text()='IT Manager'][1]")
+
+    def click_book_demo(self):
+        self.click(By.XPATH, "//a[contains(text(),'Book a Free Demo')][1]")
+
+    WHY_ORANGEHRM = (By.XPATH, "//a[text()='Why OrangeHRM']")
+    STAKEHOLDER_SOLUTIONS = (By.XPATH, "//li[contains(text(),' Stakeholder Solutions')]")
+    IT_MANAGER = (By.XPATH, "//a[text()='IT Manager'][1]")
 
     def __init__(self, driver):
         super().__init__(driver)
+        self.action = ActionChains(driver)
 
-    def click_why_orangehrm(self):
-        self.click(self.WHY_ORANGEHRM_LINK)
+    def hover_on_why_orangehrm(self):
+        header = self.find_element(*self.WHY_ORANGEHRM)
+        self.action.move_to_element(header).perform()
 
+    def hover_on_stakeholder_solutions(self):
+        stakeholder = self.find_element(*self.STAKEHOLDER_SOLUTIONS)
+        self.action.move_to_element(stakeholder).perform()
 
-
-        self.header = (By.XPATH, "//a[text()='Why OrangeHRM']")
-        self.stakeholder = (By.XPATH, "//li[contains(text(),' Stakeholder Solutions')]")
-        self.hr_manager = (By.XPATH, "//a[text()='IT Manager'][1]")
-        self.book_demo = (By.XPATH, "//a[contains(text(),'Book a Free Demo')][1]")
-
-
-    def hover_over_header(self):
-        self.hover_over_element(*self.header)
-
-    def hover_over_stakeholder(self):
-        self.hover_over_element(*self.stakeholder)
-
-    def click_hr_manager(self):
-        self.hover_over_element(*self.hr_manager)
-        self.click_element(*self.hr_manager)
-
-    def click_book_demo(self):
-        self.click_element(*self.book_demo)
+    def click_it_manager(self):
+        hrmanager = self.find_element(*self.IT_MANAGER)
+        self.action.move_to_element(hrmanager).perform()
+        hrmanager.click()
